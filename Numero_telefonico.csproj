@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8f1624a35eae726326311a11022187c0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8f1624a35eae726326311a11022187c01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Som Chamada de Ligação Audio Telefone Ligando.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

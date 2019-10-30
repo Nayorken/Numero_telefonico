@@ -106,5 +106,16 @@ namespace Numero_telefonico
             numero = 0;
             mostra();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            System.Media.SoundPlayer pal = new System.Media.SoundPlayer(Numero_telefonico.Properties.Resources.Som_Chamada_de_Ligação_Audio_Telefone_Ligando);
+            pal.Play();
+        }
     }
 }
