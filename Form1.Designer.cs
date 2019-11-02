@@ -42,9 +42,11 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -54,131 +56,155 @@
             this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(255, 117);
+            this.label1.Location = new System.Drawing.Point(311, 115);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 38);
+            this.label1.Size = new System.Drawing.Size(139, 42);
             this.label1.TabIndex = 0;
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Control;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button1.Location = new System.Drawing.Point(243, 235);
+            this.button1.Image = global::Numero_telefonico.Properties.Resources._1;
+            this.button1.Location = new System.Drawing.Point(302, 233);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(34, 23);
+            this.button1.Size = new System.Drawing.Size(39, 29);
             this.button1.TabIndex = 1;
-            this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(283, 236);
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = global::Numero_telefonico.Properties.Resources.Screenshot_3;
+            this.button2.Location = new System.Drawing.Point(348, 231);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(34, 22);
+            this.button2.Size = new System.Drawing.Size(37, 33);
             this.button2.TabIndex = 2;
-            this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(321, 236);
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Image = global::Numero_telefonico.Properties.Resources._3;
+            this.button3.Location = new System.Drawing.Point(390, 232);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(34, 22);
+            this.button3.Size = new System.Drawing.Size(39, 28);
             this.button3.TabIndex = 3;
-            this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(243, 261);
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Image = global::Numero_telefonico.Properties.Resources._4;
+            this.button4.Location = new System.Drawing.Point(302, 267);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(34, 22);
+            this.button4.Size = new System.Drawing.Size(39, 27);
             this.button4.TabIndex = 4;
-            this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(283, 261);
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Image = global::Numero_telefonico.Properties.Resources._5;
+            this.button5.Location = new System.Drawing.Point(347, 267);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(34, 22);
+            this.button5.Size = new System.Drawing.Size(39, 29);
             this.button5.TabIndex = 5;
-            this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(321, 261);
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Image = global::Numero_telefonico.Properties.Resources._6;
+            this.button6.Location = new System.Drawing.Point(390, 267);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(34, 22);
+            this.button6.Size = new System.Drawing.Size(39, 27);
             this.button6.TabIndex = 6;
-            this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(243, 284);
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Image = global::Numero_telefonico.Properties.Resources._7;
+            this.button7.Location = new System.Drawing.Point(306, 302);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(34, 22);
+            this.button7.Size = new System.Drawing.Size(35, 31);
             this.button7.TabIndex = 7;
-            this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(283, 285);
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Image = global::Numero_telefonico.Properties.Resources._81;
+            this.button8.Location = new System.Drawing.Point(347, 300);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(34, 22);
+            this.button8.Size = new System.Drawing.Size(39, 33);
             this.button8.TabIndex = 8;
-            this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(321, 285);
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Image = global::Numero_telefonico.Properties.Resources._9;
+            this.button9.Location = new System.Drawing.Point(390, 301);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(34, 22);
+            this.button9.Size = new System.Drawing.Size(39, 31);
             this.button9.TabIndex = 9;
-            this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(283, 308);
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Image = global::Numero_telefonico.Properties.Resources._0;
+            this.button10.Location = new System.Drawing.Point(348, 337);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(34, 22);
+            this.button10.Size = new System.Drawing.Size(39, 29);
             this.button10.TabIndex = 10;
-            this.button10.Text = "0";
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.Button1_Click);
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(319, 308);
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Image = global::Numero_telefonico.Properties.Resources._;
+            this.button11.Location = new System.Drawing.Point(390, 337);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(34, 22);
+            this.button11.Size = new System.Drawing.Size(39, 30);
             this.button11.TabIndex = 11;
-            this.button11.Text = "#";
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(245, 308);
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Image = global::Numero_telefonico.Properties.Resources.este1;
+            this.button12.Location = new System.Drawing.Point(302, 337);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(34, 22);
+            this.button12.Size = new System.Drawing.Size(39, 29);
             this.button12.TabIndex = 12;
-            this.button12.Text = "*";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.Button12_Click);
             // 
@@ -192,6 +218,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(604, 40);
             this.panel1.TabIndex = 13;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(229)))), ((int)(((byte)(196)))));
+            this.label3.Location = new System.Drawing.Point(234, 5);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(136, 31);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Telefone ";
             // 
             // label2
             // 
@@ -207,23 +244,38 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Numero_telefonico.Properties.Resources._8f1624a35eae726326311a11022187c01;
+            this.pictureBox1.Image = global::Numero_telefonico.Properties.Resources.d97fda3134af54885600d55c2a1f769a;
             this.pictureBox1.Location = new System.Drawing.Point(0, 37);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(604, 461);
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
-            // label3
+            // label4
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(229)))), ((int)(((byte)(196)))));
-            this.label3.Location = new System.Drawing.Point(234, 5);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(136, 31);
-            this.label3.TabIndex = 16;
-            this.label3.Text = "Telefone ";
+            this.label4.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(311, 115);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(138, 42);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "A chamar...";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.Visible = false;
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(312, 116);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(138, 42);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "Saldo: 1.68€\r\nGarantir saldo (11.80€) até\r\ndia 12 de Novembro.\r\n";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.Visible = false;
             // 
             // Form1
             // 
@@ -231,6 +283,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Numero_telefonico.Properties.Resources._8f1624a35eae726326311a11022187c0;
             this.ClientSize = new System.Drawing.Size(604, 495);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
@@ -276,6 +330,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 

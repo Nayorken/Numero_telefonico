@@ -29,19 +29,23 @@ namespace Numero_telefonico
         private void Button1_Click(object sender, EventArgs e)
         {
             int valor = 0;
+            int hi = 0;
+            int lo = 0;
             switch(((Button)sender).Name)
                 {
-                case "button1": valor = 1; break;
-                case "button2": valor = 2; break;
-                case "button3": valor = 3; break;
-                case "button4": valor = 4; break;
-                case "button5": valor = 5; break;
-                case "button6": valor = 6; break;
-                case "button7": valor = 7; break;
-                case "button8": valor = 8; break;
-                case "button9": valor = 9; break;
-                case "button10": valor = 0; break;
+                case "button1": valor = 1; hi = 1209; lo = 697; break;
+                case "button2": valor = 2; hi = 1336; lo = 697; break;
+                case "button3": valor = 3; hi = 1477; lo = 697; break;
+                case "button4": valor = 4; hi = 1209; lo = 770; break;
+                case "button5": valor = 5; hi = 1336; lo = 770; break;
+                case "button6": valor = 6; hi = 1477; lo = 770; break;
+                case "button7": valor = 7; hi = 1209; lo = 852; break;
+                case "button8": valor = 8; hi = 1336; lo = 852; break;
+                case "button9": valor = 9; hi = 1477; lo = 852; break;
+                case "button10": valor = 0; hi = 1336; lo = 941; break;
             }
+            Console.Beep(lo, 100);
+            Console.Beep(hi, 100);
             if (numero.ToString().Length < 9)
                 numero = numero * 10 + valor;
             mostra();
@@ -102,9 +106,21 @@ namespace Numero_telefonico
 
         private void Button12_Click(object sender, EventArgs e)
         {
+            System.Media.SoundPlayer pal = new System.Media.SoundPlayer(Numero_telefonico.Properties.Resources.Som_Chamada_de_Ligação_Audio_Telefone_Ligando);
             label1.Text = "";
             numero = 0;
             mostra();
+            label4.Visible = false;
+            pal.Stop();
+
+            if (label5.Visible == true)
+            {
+                label5.Visible = false;
+                label1.Visible = true;
+                label1.Text = "";
+                numero = 0;
+                mostra();
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -116,6 +132,17 @@ namespace Numero_telefonico
         {
             System.Media.SoundPlayer pal = new System.Media.SoundPlayer(Numero_telefonico.Properties.Resources.Som_Chamada_de_Ligação_Audio_Telefone_Ligando);
             pal.Play();
+
+            label4.Visible = true;
+
+            if (label1.Text == "123")
+            {
+                label5.Visible = true;
+                label4.Visible = false;
+                System.Media.SoundPlayer palsaldo = new System.Media.SoundPlayer(Numero_telefonico.Properties.Resources.Som_de_notificação_Moto_X);
+                palsaldo.Play();
+            }
+
         }
     }
 }
