@@ -257,5 +257,14 @@ namespace Numero_telefonico.Properties {
                 return ResourceManager.GetStream("Som_de_notificação_Moto_X", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.IO.UnmanagedMemoryStream semelhante a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Telefonema_para_a_NOS {
+            get {
+                return ResourceManager.GetStream("Telefonema_para_a_NOS", resourceCulture);
+            }
+        }
     }
 }

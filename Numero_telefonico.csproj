@@ -140,5 +140,8 @@
   <ItemGroup>
     <None Include="Resources\Som de notificação Moto-X.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Telefonema para a NOS.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

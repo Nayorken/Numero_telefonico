@@ -143,6 +143,11 @@ namespace Numero_telefonico
                 palsaldo.Play();
             }
 
+            if (label1.Text == "935948337")
+            {
+                System.Media.SoundPlayer palchamada = new System.Media.SoundPlayer(Numero_telefonico.Properties.Resources.Telefonema_para_a_NOS);
+                palchamada.Play();
+            }
         }
     }
 }
